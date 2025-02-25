@@ -43,9 +43,6 @@ Singtel_Invoices/
 - **Software**: 
   - Microsoft Excel (for Excel integration)
   - PDF reader (for PDF text extraction)
-- **Dependencies**: Ensure the following libraries/tools are installed:
-  - Python (if applicable)
-  - Any required automation tools or libraries (e.g., PDF text extraction libraries, Excel libraries)
 
 ## **Setup**
 1. Clone the repository:
