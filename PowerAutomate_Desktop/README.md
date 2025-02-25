@@ -1,8 +1,15 @@
-Here’s a well-structured **README.md** file for your GitHub project based on the provided code and context. This README will help users understand the purpose of your project, how to use it, and what it does.
+This README will help users understand the purpose of my project, how to use it, and what it does.
 
+# Project Title 
+## Singtel Invoice Processing Automation
 ---
+# Why I Built This
+In my workplace, I am responsible for raising multiple invoices and purchase orders (POs) in our finance system. This process can be quite tedious, as it requires me to open each PDF file, read the amounts, and then manually input the data into the finance system for purchase request approval.
 
-# Singtel Invoice Processing Automation
+To streamline this workflow and reduce the time spent on repetitive tasks, I came up with the idea to use Power Automate Desktop. This tool allows me to automate the extraction of data from PDF files and input it directly into our finance system, significantly lightening my workload and increasing efficiency.
+By automating this process, I aim to minimize human error, save time, and allow myself to focus on more strategic tasks that add value to my role and the organization.
+  
+
 
 ## **Overview**
 This project automates the extraction and processing of invoice data from Singtel PDF files. The extracted data is written to an Excel file for further analysis and reporting. The automation script is designed to:
@@ -15,6 +22,12 @@ This project automates the extraction and processing of invoice data from Singte
 - **Regex-Based Data Parsing**: Uses regular expressions to identify and extract key invoice details.
 - **Cost Center Mapping**: Matches account names to their respective cost centers.
 - **Excel Integration**: Writes the processed data into an Excel file for easy access and analysis.
+
+## Current Limitations
+- At this stage, the automation consolidates all the PDF invoices into a single Excel file, making it easier to read. However, it does not yet write the data directly into the finance system.
+
+## Next Steps for Improvement 
+- The next phase of this project will focus on enhancing the automation to input data automatically into the finance web system. This improvement will further streamline the process, reducing manual entry and increasing overall efficiency.
 
 ## **Project Structure**
 ```
