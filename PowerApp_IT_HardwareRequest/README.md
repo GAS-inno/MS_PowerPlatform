@@ -30,12 +30,22 @@ with Powerautomate for manager approval.
 ![image](https://github.com/SGA-JS/IT-Assets-Order-apps/assets/73696641/e4468ade-d069-4dba-81ca-58d0cec59c5d)
 
 
-- when select an Item > will go to Request form screen
+- when selecting an Item > will go to the Request form screen
   ![image](https://github.com/SGA-JS/IT-Assets-Order-apps/assets/73696641/32279c75-05cf-43cd-a2c7-f3f75af9dd28)
-  - the button -"Request New Laptop" will be activated after user have filled in all form input
+  - the button -"Request New Laptop" will be activated after the user has filled in all form input
 
-- Once the Item is submitted. It will automatically send email alert to the respctive manager for approval.
-- One the manager has approved the laptop request will send the email alert to IT and requester.
+- Once the item is submitted. It will automatically send an email alert to the respective manager for approval.
+- Once the manager has approved the laptop request, we will send the email alert to IT and the requester.
 
 
+
+# ** SET UP PowerAutomate Flow to Manager Approval **
+
+## Create a Sharepoint List with the following column
+![image](https://github.com/user-attachments/assets/26622fd6-21b4-4a51-8f35-352231634e97)
+
+## Create a cloud flow
+![image](https://github.com/user-attachments/assets/ad473a9f-5f5d-4ea9-bd24-786339350a6e)
+
+![image](https://github.com/user-attachments/assets/7bff1754-d979-417c-9366-f3a35f76db28)
 
