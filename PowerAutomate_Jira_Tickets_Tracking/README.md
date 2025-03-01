@@ -80,8 +80,14 @@ This guide explains how to track Jira issue field changes using Power Automate. 
 ![image](https://github.com/user-attachments/assets/869be092-3138-401e-b9fd-e585b035cd74)
 ![image](https://github.com/user-attachments/assets/6b9d2747-53cc-4a91-9a5e-3b937e4c2c06)
 
+## 📌 Future Improvements
+- **Enhance notifications**: Implement email or Teams alerts when an issue changes.
+- **Optimize storage**: Use a database instead of Excel for better scalability.
+- **Improve tracking**: Log historical changes to track trends in issue updates.
+
 ## 📌 Author
 [Saw Gwe Aw]
+
 
 ## 📚 References
 - [Jira REST API Docs](https://developer.atlassian.com/cloud/jira/platform/rest/v3/)
